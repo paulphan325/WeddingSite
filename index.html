@@ -1,0 +1,218 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>The Anderson Wedding</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport"
+          content="width=device-width, height=device-height, initial-scale=0.45, user-scalable=1, minimum-scale=0.45, maximum-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="stylesheets/normalize.css">
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <link href="http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic" rel="stylesheet" type="text/css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="scripts/modernizr-2.6.2.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="scripts/html5shiv.js"></script>
+    <![endif]-->
+    <!--[if lte IE 8]>
+    <script src="scripts/selectivizr.js"></script><![endif]-->
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+<!-- Add your site or application content here -->
+<div>
+    <h1 class="text-center">Help us ring in the new year!</h1>
+</div>
+<section id="when" class="full dark photo img-responsive"
+         style="height: 500px; background-image: url(images/TrainTracks.JPG);">
+    <div class="countdown">
+        <script type="text/javascript">
+            today = new Date();
+            BigDay = new Date("December 31, 2016");
+            msPerDay = 24 * 60 * 60 * 1000;
+            timeLeft = (BigDay.getTime() - today.getTime());
+            e_daysLeft = timeLeft / msPerDay;
+            daysLeft = Math.floor(e_daysLeft);
+            e_hrsLeft = (e_daysLeft - daysLeft) * 24;
+            hrsLeft = Math.floor(e_hrsLeft);
+            minsLeft = Math.floor((e_hrsLeft - hrsLeft) * 60);
+            document.write("<div class='daysToGo'>" + daysLeft + "</div><small>days until the wedding of</small>");
+        </script>
+    </div>
+    <!--<img class="sigs" src="sigs.png" style="position: absolute; bottom: 530px; left: 50%; margin-left: -357px;">
+    <h1>Saturday<br>July 11th, 2015<br>Raleigh, NC</h1>
+    -->
+</section>
+<section id="rsvp" class="light icy-blue">
+    <h2 class="rsvp-header">R.S.V.P.</h2>
+
+    <div class="names">
+        <input class="yourname" id="firstName" class="big" type="text" placeholder="First Name" spellcheck="false"
+               autocomplete="off">
+        <input class="yourname" id="lastName" class="big" type="text" placeholder="Last Name" spellcheck="false"
+               autocomplete="off">
+    </div>
+    <div class="spinner" style="display: none;"></div>
+
+    <p class="notice" style="display: none;">I'm sorry, your name isn't on the list. <br> <a
+            href="mailto:jra.hockey4@gmail.com?subject=You Forgot to Invite Me :)">Is this a mistake?</a></p>
+
+    <div class="test">
+        <form id="yourresponse" style="display: none;">
+            <h3 id="question">Will you be able to celebrate with us?</h3>
+            <table id="response" style="display: none;">
+                <tbody>
+                <tr>
+                    <td style="padding-right:40px;">
+                        <input data-type="response" type="checkbox" id="yes">
+                        <label for="yes">I wouldn't miss it for the world.</label>
+                    </td>
+                    <td style="padding-left:40px;">
+                        <input data-type="response" type="checkbox" id="no">
+                        <label for="no">Will celebrate from afar.</label>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="guest-count">
+                <label class="guest-label">How Many?</label>
+                <input class="guest-input" type="text" value="1">
+            </div>
+            <button class="guest-button" id="click" type="button">Send RSVP</button>
+        </form>
+    </div>
+    <p class="final" style="display: none; margin-top: 100px;">Thank you!</p>
+
+</section>
+<section class="photo top" style="background-image: url(images/Docks.JPG);"></section>
+
+<!--Registry -->
+<section id="registries" class="light">
+    <h2>Registries</h2>
+    <table style="text-align: center;">
+        <tbody>
+        <tr>
+            <td><a target="_blank" href="http://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?pwsToken=
+            &eventType=Wedding&registryId=542238595&pwsurl="><img src="images/bedbathandbeyond-bw.png"
+                                                                  class="registry bw"
+                                                                  onmouseover="this.src='bedbathandbeyond.png'"
+                                                                  onmouseout="this.src='images/bedbathandbeyond-bw.png'"></a>
+            </td>
+
+            <td><a target="_blank" href="http://www.crateandbarrel.com/gift-registry/michael-whiting/
+            r5321126"><img src="images/cb-bw.png" class="registry rei" onmouseover="this.src='cb.png'"
+                           onmouseout="this.src='images/cb-bw.png'"></a></td>
+
+            <td><a target="_blank" href="http://www.target.com/gift-registry/giftgiver?registryId=
+            vSikj6ZQNt4Wj2VdGLuTWA&registryType=WEDDING"><img src="images/target-bw.png" class="registry target"
+                                                              onmouseover="this.src='target.png'"
+                                                              onmouseout="this.src='images/target-bw.png'"></a></td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- where -->
+<section id="where" style="background-image: url(images/Radisson.jpg)">
+
+    <h2>Radisson Blu<br>Mall of America,<br>Bloomington, Minnesota</h2>
+    </a>
+</section>
+<section id="accommodations" class="light">
+    <h2>Sleep</h2>
+
+    <div class='hotel'>
+        <h2>
+            <table class="center">
+                <tbody>
+                <tr>
+                    <td>
+                        <ul>
+                            <th>Radisson Blu Mall of America</th>
+                            <li>Free Airport Shuttle</li>
+                            <li>$169/night</li>
+                            <li>use code: Weber-Anderson Wedding</li>
+                        </ul>
+                        <small>
+                            <a href="https://www.google.com/maps/dir//Radisson+Blu+Mall+of+America,+Mall+of+America,+2100+Killebrew+Dr,+Bloomington,+MN+55425/@44.852963,-93.24176,17z/data=!3m1!5s0x87f62f6c391abe2b:0xc67197b91cc6e394!4m13!1m4!3m3!1s0x87f62f6db969c385:0x79b562aee2b6540f!2sRadisson+Blu+Mall+of+America!3b1!4m7!1m0!1m5!1m1!1s0x87f62f6db969c385:0x79b562aee2b6540f!2m2!1d-93.24176!2d44.852963"
+                               target="_blank">Directions</a>
+
+                            <div class="spacer"></div>
+                            <a href="tel:+1-919-233-1798">Phone</a>
+                        </small>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+        </h2>
+    </div>
+</section>
+<section class="photo" style="background-image: url(images/Vines.jpg);"></section>
+<section id="explore" class="light">
+    <h2>Explore</h2>
+    <table>
+        <tbody>
+        <tr>
+            <th>Food</th>
+            <th>Sweets</th>
+            <th>Drink</th>
+            <th>Fun</th>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li><a href="http://www.udupicary.com" target="_blank">Udupi Cafe</a></li>
+                    <li><a href="http://www.academystbistro.com" target="_blank">Academy Street Bistro</a></li>
+                    <li><a href="http://www.thehavanagrill.com" target="_blank">Havana Grill</a></li>
+                    <li><a href="http://www.maximilliansgrill.com" target="_blank">Maximillians</a></li>
+                    <li><a href="http://www.oletimebarbecue.com" target="_blank">Ole Time Barbecue</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="http://www.bluemoonbakery.com" target="_blank">Once In A Blue Moon Bakery & Cafe</a>
+                    </li>
+                    <li><a href="http://www.sugarbuzzbakery.com" target="_blank">Sugar Buzz Bakery & Café</a></li>
+                    <li><a href="http://www.frescacafe.com" target="_blank">Fresca Cafe and Gelatoy</a></li>
+                    <li><a href="http://www.lafarmbakery.com" target="_blank">La Farm Bakery</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="http://www.CremaCoffeeBakery.com" target="_blank">Crema Coffee & Bakery</a></li>
+                    <li><a href="http://www.fortnightbrewing.com" target="_blank">Fortnight Brewing Company</a></li>
+                    <li><a href="http://www.dohertysirishpubnc.com" target="_blank">Doherty’s Irish Pub & Restaurant</a>
+                    </li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="http://www.parkwestvillage.net/" target="_blank">Park West Village</a></li>
+                    <li><a href="http://www.shopcameronvillage.com/" target="_blank">Cameron Village</a></li>
+                    <li><a href="http://www.caryfarmersmarket.com/home.html" target="_blank">Cary Downtown Farmers'
+                        Market</a></li>
+                    <li><a href="http://ncartmuseum.org/" target="_blank">North Carolina Museum of Art</a></li>
+                    <li><a href="http://www.durham-nc.com/listings/Duke-Basketball-Museum-Sports-Hall-of-Fame/1828/"
+                           target="_blank">Duke Baketball Museum &amp; Sports Hall of Fame</a></li>
+                </ul>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+<section class="photo-lay" style="background-image: url(images/TrainTracks.JPG);"></section>
+<section id="credit" class="light">
+    <a target="_blank" href="http://www.byjessicajames.com/"><h2 style="margin: 0; padding: 0;">Photography by Craig
+        dirks</h2></a>
+</section>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="scripts/plugins.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>
