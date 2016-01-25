@@ -84,6 +84,8 @@ dependencies {
     runtime 'postgresql:postgresql:8.4-702.jdbc3'
     testCompile "org.grails:grails-plugin-testing"
     testCompile "org.grails.plugins:geb"
+
+    provided "org.springframework.boot:spring-boot-starter-tomcat"
 }
 
 task wrapper(type: Wrapper) {
