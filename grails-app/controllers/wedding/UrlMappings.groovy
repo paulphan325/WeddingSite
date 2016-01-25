@@ -13,7 +13,7 @@ class UrlMappings {
             action = [POST: "rsvp"]
         }
 
-        "/"(view:"/index(old)")
+        "/"(view:"/oldhome")
         "500"(view:'/error')
         "404"(view:'/notFound')
     }
