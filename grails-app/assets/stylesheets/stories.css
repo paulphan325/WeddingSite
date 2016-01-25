@@ -1,0 +1,51 @@
+.stories {
+    margin-top: 10px;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.stories-box {
+    background-color: white;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    width: 218px;
+    height: 276px;
+    margin: 25px 4px 0 10px;
+    z-index: 1;
+    display: inline-block;
+}
+
+.stories-card {
+    width: 218px;
+    height: 266px;
+}
+
+.story-image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.story-caption {
+    font-family: 'SackersGothicStd-Medium', serif;
+    font-size: 18px;
+    font-variant: small-caps;
+}
+
+.view-more {
+    background: url(../images/icons/zoom-icon.png) no-repeat 50% 50% #999999;
+    display: block;
+    position: absolute;
+    bottom: -5px;
+    right: -10px;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.modal-image {
+    float: left;
+    height: 30%;
+    width: 30%;
+}
