@@ -14,7 +14,7 @@
 <nav class="navbar navbar-fixed-top" role="navigation">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-items">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -23,7 +23,7 @@
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <div id="navbar-items" class="collapse navbar-default navbar-collapse">
         <ul class="nav navbar-nav">
             <li><a href="#ourStory">STORIES</a></li>
             <li><a href="#weddingParty">WEDDING PARTY</a></li>
