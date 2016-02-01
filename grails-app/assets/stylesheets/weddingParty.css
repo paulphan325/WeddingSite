@@ -1,3 +1,9 @@
+#weddingParty {
+    position: relative;
+    padding-top: 400px;
+    /*//tood back back to this*/
+}
+
 .wedding-party-side {
     width: 400px;
     display: inline-block;
@@ -26,6 +32,7 @@
     width: 100px;
     height: 100px;
     padding-right: 10px;
+    border-radius: 20px;
 }
 
 .wedding-party-name {
