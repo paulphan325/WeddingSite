@@ -23,6 +23,22 @@ window.onload = function() {
     $("#daysUntil").html(days + " Days until the wedding!")
 };
 
+$(document).ready(function () {
+
+    $('div ul li a').click(function () {
+
+        var href = $(this).attr('href');
+
+        $('html, body').animate({ scrollTop: $(href).offset().top }, 800); //Chage this value for scroll speed
+
+        return false;
+
+    });
+
+    $('.party-info').autoResize();
+
+});
+
 
 if (typeof jQuery !== 'undefined') {
     (function($) {

@@ -2,7 +2,6 @@
 <a id="room-block"></a>
 
 <div class="section text-center container">
-    <div class="section-title text-center">VENUE</div>
 
     <div class="row room-block-wrapper">
         <div class="room-block-image">

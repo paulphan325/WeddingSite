@@ -5,6 +5,7 @@ class GuestController {
     GuestService guestService
 
     def index() {
+        render view: "rsvp"
     }
 
     /**

@@ -2,6 +2,8 @@
 <g:render template="/templates/storyModelProposal"/>
 <g:render template="/templates/storyModelVenue"/>
 <g:render template="/templates/storyModelVenue"/>
+<g:render template="/templates/storyModelHoneymoon"/>
+<g:render template="/templates/storyModelFuture"/>
 
 <a id="ourStory"></a>
 

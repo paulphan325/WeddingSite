@@ -10,14 +10,14 @@
             simply enjoy your presence. (We mean it!)
             That said, we also enjoy dishware and shiny new four-slice toasters too, so if you really would like to get us something, you can find some suggestions here:</div>
 
-            <div class="registry-item col-lg-4"><asset:image src="icons/target.png"
+            <div class="registry-item col-lg-4 col-sm-6"><asset:image src="icons/target.png"
                                                              class="wedding-party-image"/><p>Target</p></div>
 
-            <div class="registry-item col-lg-4"><asset:image src="icons/target.png"
+            <div class="registry-item col-lg-4 col-sm-6"><asset:image src="icons/Cruise-Logo.png"
                                                              class="wedding-party-image"/><p>NCL</p></div>
 
-            <div class="registry-item col-lg-4"><asset:image src="icons/target.png"
-                                                             class="wedding-party-image"/><p>Somewhere Else</p></div>
+            <div class="registry-item col-lg-4 col-sm-6"><asset:image src="icons/amazon_logo.jpg"
+                                                             class="wedding-party-image"/><p>Amazon</p></div>
         </div>
     </div>
 </div>
