@@ -14,6 +14,15 @@
 //= modernizr-2.6.2.min.js
 //= require bootstrap.min
 
+window.onload = function() {
+    var startd = Date.now();
+    var endd = Date.parse("2016-12-31");
+    var diff = new Date(endd - startd);
+    var days = diff/1000/60/60/24;
+    days = Math.floor(days);
+    $("#daysUntil").html(days + " Days until the wedding!")
+};
+
 
 if (typeof jQuery !== 'undefined') {
     (function($) {

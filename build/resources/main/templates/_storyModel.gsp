@@ -1,5 +1,5 @@
 <!-- Modal -->
-<div id="firstDateStory" class="modal fade" role="dialog">
+<div id="storyModel${storyId}" class="modal fade" role="dialog">
     <div class="modal-dialog">
 
         <!-- Modal content-->
@@ -11,9 +11,9 @@
 
             <div class="modal-body">
                 <div class="row">
-                    <asset:image src="BeanFactory.jpg" class="modal-image col-lg-6"/>
+                    <asset:image src="${storyImage}" class="modal-image col-lg-6"/>
                     <div class="model-content col-lg-6">
-                        <p class="modal-text">This is the story of our first date! It was at a coffee shop. Coffee is really great. Something something I just need to see how this text fits in the box. Find a better picture.</p>
+                        <p class="modal-text">${storyContent}</p>
                     </div>
                 </div>
             </div>
