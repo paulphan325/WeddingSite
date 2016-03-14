@@ -8,6 +8,22 @@ class GuestController {
         render view: "rsvp"
     }
 
+    def weddingParty() {
+        render view: "weddingParty"
+    }
+
+    def story() {
+        render view: "story"
+    }
+
+    def registry() {
+        render view: "registry"
+    }
+
+    def venue() {
+        render view: "venue"
+    }
+
     /**
      * RSVP Guest
      * Needs to check if the guest is on the list

@@ -5,7 +5,7 @@
     <div class="section-title text-center">WEDDING PARTY</div>
 
     <div class="wedding-party-wrapper">
-        <div class="wedding-party-side">
+        <div class="wedding-party-side list-group">
             <div class="section-title text-center">BRIDE</div>
 
             <div class="wedding-party-member">
@@ -13,7 +13,7 @@
                     <span class="wedding-party-name">Ellie</span>
                     <span class="wedding-party-role">Maid of Honor</span>
                 </div>
-                <asset:image src="icons/Ellie.jpg" class="wedding-party-image-main"/>
+                <asset:image src="wedding-party/Ellie.jpg" class="wedding-party-image-main"/>
                 <div class="wedding-party-text">
                     <div id="brideParty1" class="party-info-main">
                         Ellie is really great. Ellie is really great.
@@ -44,7 +44,7 @@
             </div>
 
             <div class="wedding-party-member">
-                <asset:image src="icons/Angie.JPG" class="wedding-party-image"/>
+                <asset:image src="wedding-party/Angie.JPG" class="wedding-party-image"/>
                 <div class="wedding-party-text">
                     <i class="fa fa-2x fa-angle-double-down text-right" data-toggle="collapse"
                        data-target="#brideParty2"></i>
@@ -58,7 +58,7 @@
             </div>
 
             <div class="wedding-party-member">
-                <asset:image src="icons/Hedi.JPG" class="wedding-party-image"/>
+                <asset:image src="wedding-party/Hedi.JPG" class="wedding-party-image"/>
                 <div class="wedding-party-text">
                     <i class="fa fa-2x fa-angle-double-down" data-toggle="collapse" data-target="#brideParty5"></i>
 
@@ -71,7 +71,7 @@
             </div>
 
             <div class="wedding-party-member">
-                <asset:image src="icons/Nicole.JPG" class="wedding-party-image"/>
+                <asset:image src="wedding-party/Nicole.JPG" class="wedding-party-image"/>
                 <div class="wedding-party-text">
                     <i class="fa fa-2x fa-angle-double-down" data-toggle="collapse" data-target="#brideParty4"></i>
 
@@ -102,17 +102,17 @@
 
             <div class="wedding-party-member">
                 <div><span class="wedding-party-name">Adam</span> <span class="wedding-party-role">Best Man</span></div>
-                <asset:image src="icons/Adam.jpg" class="wedding-party-image-main"/>
+                <asset:image src="wedding-party/Adam.jpg" class="wedding-party-image-main"/>
                 <div class="wedding-party-text">
                     <div id="groomParty1" class="party-info-main">
-                        Third Person:
-                        The Groom has been best friends with Adam since middle school. During high-school they spent a lot of time together.
-                        Something about being inseprable.
-                        John and Adam were the Co-Captains of their Varsity hockey team their senior year. What the team lacked in ability to win games they
-                        more than made up for with fun.
-                        Both choosing to attend North Dakota State they decided to share a tiny little dorm room together. After a year of forcing each-other to get
-                        up for their 8 am's,hiding illegal futons in their dorm room, and drinking lots of soda pop together,  they remained friends.
-                        The following year they would move into an off campus house with Kyle.
+                        I met Adam way back in middle school. We spent the entire following summer eating little caesars pizza and playing video games in his basement.
+                        High-school brought a lot of long lasting memories together as well. We made a pretty epic spanish cooking video where we made a quessadilla
+                        while shouting out the ingredients in very broken spanglish. We went on a boundary waters canoe trip with church where I brought nothing but red clothes.
+                        Hundreds of hours on the ice together playing 4 years of JV and then Varsity hockey. Co-Captains our senior year.
+                        We both attended North Dakota State University and even shared a tiny dorm room together. After a year of forcing eachother to get up for our 8 am's,
+                        hiding our illegal futon, and drinking lots of soda pop together, we still remained friends. The next year we moved into a house off campus with our friend Kyle.
+                        I can't really imagine my life without having Adam in it. So many of my memories have him in it and I am very grateful for his friendship over the years.
+
                     </div>
                 </div>
             </div>
@@ -149,7 +149,7 @@
             </div>
 
             <div class="wedding-party-member">
-                <asset:image src="icons/target.png" class="wedding-party-image"/>
+                <asset:image src="wedding-party/Caleb.jpg" class="wedding-party-image"/>
                 <div class="wedding-party-text">
                     <i class="fa fa-2x fa-angle-double-down" data-toggle="collapse" data-target="#groomParty4"></i>
 
@@ -157,7 +157,11 @@
 
                     <div class="wedding-party-role">Groomsman</div>
 
-                    <div id="groomParty4" class="collapse party-info">Some funny text about Caleb</div>
+                    <div id="groomParty4" class="collapse party-info">
+                        Caleb is Caitis brother and I have known him for about as long as I have known Caiti. What do people say about brothers?
+                        I feel like the families all know the brothers? I can include some fond memories here
+                        Too many memories soundslike I died or something
+                    </div>
                 </div>
             </div>
 
@@ -170,12 +174,12 @@
 
                     <div class="wedding-party-role">Groomsman</div>
 
-                    <div id="groomParty5" class="collapse party-info">Some funny text about Matthew</div>
+                    <div id="groomParty5" class="collapse party-info">Matthew is my brother!</div>
                 </div>
             </div>
 
             <div class="wedding-party-member">
-                <asset:image src="icons/target.png" class="wedding-party-image"/>
+                <asset:image src="wedding-party/target.png" class="wedding-party-image"/>
                 <div class="wedding-party-text">
                     <i class="fa fa-2x fa-angle-double-down text-right" data-toggle="collapse"
                        data-target="#groomParty3"></i>
@@ -184,7 +188,14 @@
 
                     <div class="wedding-party-role">Groomsman</div>
 
-                    <div id="groomParty3" class="collapse party-info">Some funny text about Kyle</div>
+                    <div id="groomParty3" class="collapse party-info">Kyle was the first friend that I made in college. On my quest to find my first class of my college career
+                    I ran into Kyle. We were both trying to locate the same room. There was just something about him that I knew we were instant friends.
+                    I happened to have a lot of classes with him my first two semesters even though our majors were very different. After introducing him to Adam we were all very good friends.
+                        It was a friendship that seemed much older than it was. One of the funnier sharable stories I have of Kyle was when Adam and I went to a Bison football game.
+                        Kyle was in the band so he never got to really go to the games with us. He was on the field playing his sousasomthing or other. And we were cheering super obnoxioiusly
+                        loud for him in the stands. There was family standing in front of us that turned around and stared pretty strangly at us. After a closer look we decided that kyles
+                        entire extended family was standing there. That was also the first day we got to meet Kyle's family!
+                    </div>
                 </div>
             </div>
 
@@ -193,11 +204,16 @@
                 <div class="wedding-party-text">
                     <i class="fa fa-2x fa-angle-double-down" data-toggle="collapse" data-target="#groomParty6"></i>
 
-                    <div class="wedding-party-name">Andrew Shaar</div>
+                    <div class="wedding-party-name">Andrew Schaar</div>
 
                     <div class="wedding-party-role">Groomsman</div>
 
-                    <div id="groomParty6" class="collapse party-info">Some funny text about Placeholder</div>
+                    <div id="groomParty6" class="collapse party-info">
+                        I met Andy my very first day at Bluestem. He was an Intern just like I was. He showed me all the ropes of how things worked. After working together for 2+ years
+                        we have become close friends. He was another friend that I met that I felt like I had known my whole life. Once I turned 21 we were able to really start sampling the various
+                        craft beers that the Twin Cities has to offer. I owe my extensive craft beer knowledge and palet to his recommendations. He is always down to go attend a concert
+                        or do any sort of activity really. Just an all around great friend!
+                    </div>
                 </div>
             </div>
         </div>

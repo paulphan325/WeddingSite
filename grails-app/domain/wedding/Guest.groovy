@@ -29,4 +29,3 @@ class Guest {
         accommodations nullable: true, blank: true
     }
 }
-

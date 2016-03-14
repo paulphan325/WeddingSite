@@ -11,7 +11,7 @@
     <div class="section-title">OUR STORY</div>
 
     <div class="stories">
-        <div class="stories-box" data-toggle="modal" data-target="#proposalStory">
+        <div class="stories-box" data-toggle="modal" data-target="#firstDateStory">
             <div class="stories-card">
                 <asset:image src="BeanFactory.jpg" class="story-image"/>
                 <div><p class="story-caption">First Date</p></div>
