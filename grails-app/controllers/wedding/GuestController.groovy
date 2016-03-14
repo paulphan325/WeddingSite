@@ -13,7 +13,7 @@ class GuestController {
     }
 
     def story() {
-        render view: "story"
+        render view: "ourStory"
     }
 
     def registry() {

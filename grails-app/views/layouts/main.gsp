@@ -26,10 +26,11 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div id="navbar-items" class="collapse navbar-default navbar-collapse">
             <ul class="nav navbar-nav">
-                <li><g:link uri="story">OUR STORY</g:link></li>
+                <li><g:link url="/">HOME</g:link></li>
+                <li><g:link controller="guest" action="story">OUR STORY</g:link></li>
                 <li><g:link controller="guest" action="weddingParty">WEDDING PARTY</g:link></li>
                 <li><g:link controller="guest" action="rsvp">RSVP</g:link></li>
-                <li><a href="#venue">VENUE</a></li>
+                <li><g:link controller="guest" action="venue">VENUE</g:link></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </nav>

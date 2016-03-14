@@ -179,7 +179,7 @@
             </div>
 
             <div class="wedding-party-member">
-                <asset:image src="wedding-party/target.png" class="wedding-party-image"/>
+                <asset:image src="wedding-party/Kyle.jpg" class="wedding-party-image"/>
                 <div class="wedding-party-text">
                     <i class="fa fa-2x fa-angle-double-down text-right" data-toggle="collapse"
                        data-target="#groomParty3"></i>
