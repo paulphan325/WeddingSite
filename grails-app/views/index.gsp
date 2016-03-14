@@ -21,7 +21,7 @@
 </div>
 
 <div class="text-center">
-    <g:link controller="guest" action="story"><div class="section-linkgit a">READ OUR STORY...</div></g:link>
+    <g:link controller="guest" action="story"><div class="section-link">READ OUR STORY...</div></g:link>
 </div>
 
 </body>
