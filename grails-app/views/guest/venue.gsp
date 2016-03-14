@@ -9,4 +9,5 @@
 
 <body>
 <g:render template="/templates/venue"/>
+<g:render template="/templates/hotelBlock"/>
 </body>

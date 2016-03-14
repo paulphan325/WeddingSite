@@ -10,15 +10,12 @@
             </div>
 
             <div class="modal-body">
-                <div class="row">
-                    %{--<asset:image src="/backgrounds/Radisson.jpg" class="modal-image col-lg-6"/>--}%
-                    <div class="model-content col-lg-6">
+                    <div class="model-content">
                         <p class="modal-text">
                             Something about our future together?
                             Caitlin is working at 3m
                             John is working at Bluestem Brands cleaning the toilets
                         </p>
-                    </div>
                 </div>
             </div>
 

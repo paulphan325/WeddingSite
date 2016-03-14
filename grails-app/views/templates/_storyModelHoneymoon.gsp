@@ -10,15 +10,13 @@
             </div>
 
             <div class="modal-body">
-                <div class="row">
-                    %{--<asset:image src="/backgrounds/Radisson.jpg" class="modal-image col-lg-6"/>--}%
-                    <div class="model-content col-lg-8">
-                        <p class="modal-text">
-                            Caitlin and John will be going on a 7 day cruise the weekend after the wedding for some much needed relaxation.
-                            The ship stops in St Thomas Tortolla and somewhere else!
-                            Something about loving crusing.
-                        </p>
-                    </div>
+                <asset:image src="/icons/Cruise-Logo.png" class="modal-image"/>
+                <div class="model-content">
+                    <p class="modal-text">
+                        Caitlin and John will be going on a 7 day cruise the weekend after the wedding for some much needed relaxation.
+                        The ship stops in St Thomas Tortolla and somewhere else!
+                        Something about loving crusing.
+                    </p>
                 </div>
             </div>
 
