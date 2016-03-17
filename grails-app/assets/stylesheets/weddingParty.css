@@ -1,12 +1,6 @@
-#weddingParty {
-    position: relative;
-    padding-top: 500px;
-}
-
 .wedding-party-side {
-    width: 400px;
     display: inline-block;
-    margin: 0 30px 50px 0;
+    margin: 0 25px 25px 0;
 }
 
 .wedding-party-member {
@@ -18,7 +12,7 @@
     padding-top: 7px;
     padding-bottom: 7px;
     position: relative;
-    width: 500px;
+    width: 550px;
 }
 
 .wedding-party-text {
@@ -33,8 +27,8 @@
 }
 
 .wedding-party-image-main {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     padding-right: 10px;
     border-radius: 20px;
 }
@@ -62,10 +56,10 @@
     padding-top: 20px;
 }
 
-.party-info-main {
-    height: 350px;
-}
-
 .party-info {
-    height: 250px;
+    min-height: 150px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    text-indent: 2em;
+    font-size: 15px;
 }
