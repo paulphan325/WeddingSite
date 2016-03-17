@@ -20,16 +20,9 @@
     </div>
 </div>
 
-%{--<g:render template="/templates/ourStory"/>--}%
-
-%{--<g:render template="/templates/weddingParty"/>--}%
-
-<g:render template="/templates/registry"/>
-
-
-<g:render template="/templates/hotelBlock"/>
-
-<g:render template="/templates/thingsToDo"/>
+<div class="text-center">
+    <g:link controller="guest" action="story"><div class="section-link">READ OUR STORY...</div></g:link>
+</div>
 
 </body>
 </html>

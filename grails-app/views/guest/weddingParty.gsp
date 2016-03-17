@@ -9,4 +9,7 @@
 
 <body>
 <g:render template="/templates/weddingParty"/>
+<div class="text-center">
+    <g:link controller="guest" action="venue"><div class="section-link">SEE THE VENUE</div></g:link>
+</div>
 </body>

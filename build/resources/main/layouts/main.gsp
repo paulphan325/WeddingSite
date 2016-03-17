@@ -29,12 +29,13 @@
                 <li><g:link url="/">HOME</g:link></li>
                 <li><g:link controller="guest" action="story">OUR STORY</g:link></li>
                 <li><g:link controller="guest" action="weddingParty">WEDDING PARTY</g:link></li>
-                <li><g:link controller="guest" action="rsvp">RSVP</g:link></li>
                 <li><g:link controller="guest" action="venue">VENUE</g:link></li>
+                <li><g:link controller="guest" action="registry">REGISTRY</g:link></li>
+                <li><g:link controller="guest" action="rsvp">RSVP</g:link></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </nav>
         <g:layoutBody/>
-        <div class="footer" role="contentinfo"></div>
+        <div class="footer text-center" role="contentinfo"></div>
     </body>
 </html>

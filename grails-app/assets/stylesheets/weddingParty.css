@@ -12,12 +12,13 @@
 .wedding-party-member {
     margin-top: 15px;
     margin-bottom: 15px;
-    background: rgba(212, 212, 212, 0.5);
+    background: rgba(196, 196, 196, 0.5);
     border-radius: 20px;
     vertical-align: top;
     padding-top: 7px;
     padding-bottom: 7px;
     position: relative;
+    width: 500px;
 }
 
 .wedding-party-text {
@@ -39,8 +40,8 @@
 }
 
 .wedding-party-image {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     padding-right: 10px;
     border-radius: 20px;
 }
@@ -50,7 +51,7 @@
 }
 
 .wedding-party-role {
-    color: #97cdcd;
+    color: #91c6c6;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
@@ -62,9 +63,9 @@
 }
 
 .party-info-main {
-    min-height: 500px;
+    height: 350px;
 }
 
 .party-info {
-    min-height: 250px;
+    height: 250px;
 }

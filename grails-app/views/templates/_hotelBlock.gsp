@@ -14,6 +14,8 @@
 
                 <asset:image src="icons/target.png" class="wedding-party-image"/> Image of room
 
+                %{--TODO build out this a little better
+                Mention how we have a block of rooms for your convience. Tell how to book them--}%
             </div>
         </div>
     </div>
