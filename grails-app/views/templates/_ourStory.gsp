@@ -13,19 +13,23 @@
         %{--TODO Change this font--}%
         <asset:image src="BeanFactory.jpg" class="modal-image"/>
         <h3 class="">THE FIRST DATE</h3>
-        <p style="font-size: 18px;" class="modal-text">The story of the first date is highly disputed. The Groom believes that our first date occurred at the Bean Factory. We both
-        ordered a white chocolate hot chocolate, in a real mug, and Caiti paid for it. The Bride considers the Wild Game the night before as our first date.
-        John believe's that this does not count as his parents were there and we were with a large group. Thus does not officially count as a date.
+
+        <p class="modal-text">The story of the first date is highly disputed. The Groom believes that our first date occurred at the Bean Factory. We both
+        ordered a white chocolate hot chocolate, in a real mug, which Caiti paid for. The Bride considers the Wild Game the night before as our first date.
+        John believe's that this does not count as his parents were there and we were with a large group. Thus should not offically count as a first date!
         </p>
     </div>
 
     <div class="story-box">
 
-        %{--TODO Change this font--}%
+        %{--TODO picture for this as well as caiti division--}%
         %{--<asset:image src="BeanFactory.jpg" class="modal-image"/>--}%
-        <h3 class="">THE MIDDLE DATES</h3>
-        <p style="font-size: 18px;" class="modal-text">This could tell about the inbetween? John went to NDSU caiti went to St Kates. John studied computer science
-            while caiti studied health care sales.
+        <h3 class="">In between</h3>
+
+        <p style="font-size: 18px;"
+           class="modal-text">After high-school John moved to North Dakota to attend NDSU to study computer science. Caiti stayed in Saint Paul to go to St Kates for Health Care sales. After 2 very long years
+            John moved back from the frozen tundra that is Fargo, to Saint Paul. Finishing up his degree at Metrostate. John works at Bluestem Brands as a Software Engineer. Caiti works for 3m as a (division)
+            Inside Sales Rep. The couple both really enjoys cruising to get away from work and is their go to vacation.
         </p>
     </div>
 
@@ -33,7 +37,8 @@
 
         <asset:image src="/icons/Proposal.jpg" class="modal-image"/>
         <h3 class="">THE PROPOSAL</h3>
-        <p style="font-size: 18px;" class="modal-text">The story of the proposal is pretty elaborate.
+
+        <p class="modal-text">June 7th, 2015. The story of the proposal is pretty elaborate.
         John planned a really amazing day for Caitlin to go off on an adventure with her best friend
         Ellie (The Maid of Honor). Throughout the day she was given envelopes with letters explaining what to do next.
         The day started off with an early wake up call from John.I always told her that I would tell her when I was going to propose
@@ -47,49 +52,8 @@
     </div>
 
     <div class="text-center">
-        <g:link controller="guest" action="weddingParty"><div class="section-link">Meet the Wedding Party!</div></g:link>
+        <g:link controller="guest" action="weddingParty"><div
+                class="section-link">Meet the Wedding Party!</div></g:link>
     </div>
 
-
-    %{--<div class="stories">--}%
-    %{--<div class="stories-box" data-toggle="modal" data-target="#firstDateStory">--}%
-    %{--<div class="stories-card">--}%
-    %{--<asset:image src="BeanFactory.jpg" class="story-image"/>--}%
-    %{--<div><p class="story-caption">First Date</p></div>--}%
-    %{--</div>--}%
-    %{--<a class="view-more"></a>--}%
-    %{--</div>--}%
-
-    %{--<div class="stories-box" data-toggle="modal" data-target="#proposalStory">--}%
-    %{--<div class="stories-card">--}%
-    %{--<asset:image src="icons/Proposal.jpg" class="story-image"/>--}%
-    %{--<div><p class="story-caption">The Proposal</p></div>--}%
-    %{--</div>--}%
-    %{--<a class="view-more"></a>--}%
-    %{--</div>--}%
-
-    %{--<div class="stories-box" data-toggle="modal" data-target="#venueStory">--}%
-    %{--<div class="stories-card">--}%
-    %{--<asset:image src="backgrounds/Radisson.jpg" class="story-image"/>--}%
-    %{--<div><p class="story-caption">Picking A Venue</p></div>--}%
-    %{--</div>--}%
-    %{--<a class="view-more"></a>--}%
-    %{--</div>--}%
-
-    %{--<div class="stories-box" data-toggle="modal" data-target="#honeymoonStory">--}%
-    %{--<div class="stories-card">--}%
-    %{--<asset:image src="icons/Cruise-Logo.png" class="story-image"/>--}%
-    %{--<div><p class="story-caption">The Honeymoon</p></div>--}%
-    %{--</div>--}%
-    %{--<a><div class="view-more"></div></a>--}%
-    %{--</div>--}%
-
-    %{--<div class="stories-box" data-toggle="modal" data-target="#futureStory">--}%
-    %{--<div class="stories-card">--}%
-    %{--<asset:image src="icons/target.png" class="story-image"/>--}%
-    %{--<div><p class="story-caption">Our Future Journey</p></div>--}%
-    %{--</div>--}%
-    %{--<a><div class="view-more"></div></a>--}%
-    %{--</div>--}%
-    %{--</div>--}%
 </div>

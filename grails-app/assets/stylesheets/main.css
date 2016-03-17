@@ -222,7 +222,10 @@ table th {
 }
 
 p {
-    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    text-indent: 2em;
+    font-size: 15px;
 }
 
 hr {
@@ -249,6 +252,13 @@ section#gifts table td {
 
 section#gifts table img {
     width: 100%;
+}
+
+.model-text {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    text-indent: 2em;
+    font-size: 18px;
 }
 
 p.notice {
