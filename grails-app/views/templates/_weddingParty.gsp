@@ -11,7 +11,7 @@
             <p class="wedding-party-role text-center">Maid of Honor</p>
 
             <div class="wedding-party-member">
-                <asset:image src="wedding-party/Ellie.jpg" class="wedding-party-image-main"/>
+                <asset:image src="wedding-party/Ellie.JPG" class="wedding-party-image-main"/>
                 <div class="wedding-party-text">
                     %{--TODO Caiti finish this section--}%
                     <div id="brideParty1" class="party-info party-main">
