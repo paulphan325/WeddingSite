@@ -49,8 +49,31 @@
     padding-right: 20%;
 }
 
+.navbar-heading {
+    padding-left: 15px;
+    float: left;
+    color: #69a198;
+}
+
 @media screen and (max-device-width: 640px) {
     .signature {
         font: 400 40px/1.3 'SackersGothicStd-Medium', serif;
+    }
+}
+
+@media screen and (min-width: 766px) {
+    .navbar-heading {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .welcome-image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .signature {
+        font-size: 40px;
     }
 }

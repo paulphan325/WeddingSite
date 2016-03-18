@@ -12,9 +12,10 @@
         <g:layoutHead/>
     </head>
     <body>
-    <nav class="navbar navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
+        <h3 class="navbar-items navbar-heading">Anderson Wedding</h3>
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-items">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
@@ -31,6 +32,7 @@
                 <li><g:link controller="guest" action="weddingParty">WEDDING PARTY</g:link></li>
                 <li><g:link controller="guest" action="venue">VENUE</g:link></li>
                 <li><g:link controller="guest" action="registry">REGISTRY</g:link></li>
+                <li><g:link controller="guest" action="faq">FAQ</g:link> </li>
                 <li><g:link controller="guest" action="rsvp">RSVP</g:link></li>
             </ul>
         </div><!-- /.navbar-collapse -->

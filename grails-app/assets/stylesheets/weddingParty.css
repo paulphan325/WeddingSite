@@ -1,18 +1,23 @@
+
 .wedding-party-side {
     display: inline-block;
-    margin: 0 25px 25px 0;
 }
 
 .wedding-party-member {
     margin-top: 15px;
     margin-bottom: 15px;
-    background: rgba(196, 196, 196, 0.5);
+    background: rgba(196, 196, 196, 0.85);
+    /*background: rgba(152, 189, 197, 0.6);*/
     border-radius: 20px;
     vertical-align: top;
     padding-top: 7px;
     padding-bottom: 7px;
     position: relative;
     width: 550px;
+}
+
+.wedding-party-member-other {
+    display: inline-block;
 }
 
 .wedding-party-text {
@@ -42,12 +47,18 @@
 
 .wedding-party-name {
     font-size: 25px;
+    padding-right: 50px;
+    text-align: center;
+    margin-bottom: 0;
 }
 
 .wedding-party-role {
     color: #91c6c6;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
+    padding-right: 50px;
+    text-align: center;
+    margin-bottom: 5px;
 }
 
 .wedding-party-text > i {
@@ -62,4 +73,12 @@
     text-align: justify;
     text-indent: 2em;
     font-size: 15px;
+}
+
+@media screen and (max-width: 575px) {
+    .wedding-party-member {
+        width: 90%;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
 }

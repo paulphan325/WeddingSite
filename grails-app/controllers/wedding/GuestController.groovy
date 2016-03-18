@@ -24,6 +24,10 @@ class GuestController {
         render view: "venue"
     }
 
+    def faq() {
+        render view: "faq"
+    }
+
     /**
      * RSVP Guest
      * Needs to check if the guest is on the list

@@ -8,5 +8,5 @@
 </head>
 
 <body>
-<g:render template="/templates/weddingParty"/>
+<g:render template="/templates/faq"/>
 </body>

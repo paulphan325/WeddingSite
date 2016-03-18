@@ -31,6 +31,7 @@
                 <li><g:link controller="guest" action="weddingParty">WEDDING PARTY</g:link></li>
                 <li><g:link controller="guest" action="venue">VENUE</g:link></li>
                 <li><g:link controller="guest" action="registry">REGISTRY</g:link></li>
+                <li><g:link controller="guest" action="faq">FAQ</g:link> </li>
                 <li><g:link controller="guest" action="rsvp">RSVP</g:link></li>
             </ul>
         </div><!-- /.navbar-collapse -->
